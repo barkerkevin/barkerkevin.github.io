@@ -1,0 +1,320 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	
+}
+#wrapper {
+
+	min-width: 740px;
+	max-width: 1290px;
+	margin-right: auto;
+	width: 100%;
+	margin-left: auto;
+	background-color:
+
+}
+#hero img {
+	max-width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	background-image: url(../images/composite.jpg);
+
+}
+h1 {
+	font-size: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #2B2828;
+	background-color: #EFE7E8;
+	font-family: butcherman;
+	font-style: normal;
+	font-weight: 400;
+	text-shadow: 5px 5px 10px #830515;
+}
+#main {
+	width: 58%;
+	margin-left: 2%;
+	float: left;
+}
+#sidebar {
+	width: 300px;
+	margin-left: 10px;
+	float: left;
+	color: #7B7676;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	padding: 5px;
+	line-height: 25px;
+}
+#footer {
+	float: left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+#wrapper #top h1 {
+	color: #FBF9F9;
+	font-weight: 400;
+	text-shadow: 10px 5px 10px #830515;
+	word-spacing: 2px;
+	background-repeat: no-repeat;
+	background-color: #FBF9F9;
+	font-style: normal;
+	opacity: 1;
+	border-color: #EFE7E8;
+	background-position:25%;
+	font-family: butcherman;
+	background-position: 20px 0px;
+	text-align: center;
+	font-size: xx-large;
+}
+#footer {
+	text-transform: uppercase;
+	background-color: #43A6CB;
+	color: #FFFFFF;
+
+
+}
+.centered {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#footer {
+	color: #FFFFFF;
+	background-color: #43A6CB;
+
+}
+#main {
+	color: #7B7676;
+	-webkit-box-shadow: 5px 0px 5px #FBFAFA;
+	box-shadow: 5px 0px 5px #FBFAFA;
+	border-width: thin;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-shadow: 5px 5px 10px rgba(251,249,249,1.00);
+	letter-spacing: 0;
+	word-spacing: 0;
+
+
+
+
+
+
+
+
+
+
+
+
+	background-image: url(
+../images/Vancouver-skyline-at-night%20(1).jpg);
+	background-repeat: no-repeat;
+	background-image: none;
+	text-align: left;
+	max-height: 0px;
+	float: left;
+	width: 60%;
+	padding: 5px;
+}
+#a {
+	font-weight: bold;
+	text-decoration: none;
+
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link {
+	color: #FF6600;
+}
+a:visited {
+	color: #FF944C;
+}
+a:hover, a:active, a:focus {
+	color: #FBFAFA
+	text-decoration: underline;
+	padding-right: 0px;
+	text-transform: uppercase;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+#mainnav ul {
+	list-style-position: inside;
+	list-style-type: none;
+}
+#mainnav a {
+	width: 15%;
+	display: block;
+	float: left;
+	text-align: center;
+	background-color: #FBFAFA;
+	color: #2B2828;
+	text-transform: uppercase;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: large;
+}
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
+	text-decoration: none;
+	background-color: #FBFAFA;
+	color: #830515;
+}
+
+#wrapper #top #mainnav {
+	margin-top: 0px;
+}
+article div p {
+	position: relative;
+}
+#hero article {
+	width: auto;
+	padding-right: 10px;
+	right: 43px;
+	left: 45%;
+	position: absolute;
+	top: 40px;
+	padding-left: 20px;
+	color: #FBF9F9;
+	font-size: 120px;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	background-position: left 0%;
+	text-align: center;
+	font-family: germania-one;
+	font-style: normal;
+	font-weight: 400;
+	text-shadow: 5px 5px 10px rgba(131,5,21,1.00);
+	float: left;
+	height: auto;
+	border-left: medium solid rgba(251,249,249,1.00);
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	line-height: 15px;
+	background-image: none;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	word-spacing: 5pt;
+	letter-spacing: 0px;
+}
+#hero {
+	position: relative;
+	clear: left;
+}
+#hero article div {
+	position: absolute;
+	width: 36%;
+	padding-right: 10px;
+}
+#wrapper #top h1 {
+	font-size: 72px;
+	font-family: butcherman;
+	font-style: normal;
+	font-weight: 400;
+	text-shadow: 5px 5px 10px #D7073B;
+	
+}
+#wrapper #top_top {
+	color: #EFE7E8;
+	width: 100%;
+	background-color: #060606;
+	font-weight: 400;
+	text-align: center;
+
+}
+#wrapper #top {
+	background-image: url(../images/Vancouver-skyline-at-night3.jpg);
+}
+#wrapper #main #blurb {
+	color: rgba(6,6,6,1.00);
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	min-width: 32px;
+	min-height: 300px;
+	max-width: 300px;
+	margin-right: 40px;
+	float: right;
+	margin-top: 200px;
+	position: relative;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+#sidebar p #pull {
+	width: 150px;
+	height: auto;
+}
+#wrapper footer {
+	margin-top: 10px;
+	float: left;
+	height: auto;
+	width: 1280px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+#wrapper #head {
+	min-width: 32px;
+	min-height: 15px;
+	max-width: 1280px;
+	max-height: none;
+	width: 1280px;
+	color: rgba(6,6,6,1);
+	font-family: courier-prime;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: left;
+	text-shadow: 0 0 0 rgba(123,118,118,1.00);
+	text-transform: none;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: right center;
+	line-height: 5px;
+	background-image: none;
+	height: 0px;
+}
+#wrapper #hero {
+
+}
+#adsense_banner {
+	width: 728px;
+	height: 90px;
+	font-size: 16px;
+	margin-bottom: 10px;
+	float: left;
+	text-align: center;
+}
+#wrapper #main {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	line-height: 55px;
+	font-variant: normal;
+	color: #1B1616;
+	letter-spacing: normal;
+	word-spacing: 2em;
+	position: relative;
+	text-indent: 0px;
+	text-shadow: 5px 5px 5px rgba(6,6,6,1.00);
+	width: 400px;
+	float: left;
+}

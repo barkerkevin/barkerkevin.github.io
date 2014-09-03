@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	
+}
+#wrapper {
+	max-width: 1290px;
+	margin-right: auto;
+	width: 100%;
+	margin-left: auto;
+
+	background-color:
+; 	font-size: 12px;
+
+}
+#main {
+	width: 400px;
+	float: left;
+	margin-left: 10px;
+	font-size: 24px;
+	line-height: 50px;
+	font-style: oblique;
+}
+
+#sidebar {
+	width: 300px;
+	margin-left: 10px;
+	float: left;
+	color: #7B7676;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	padding: 5px;
+	line-height: 25px;
+	border-right: thin solid rgba(77,61,61,1);
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-color: rgba(77,61,61,1);
+	border-bottom-color: rgba(77,61,61,1);
+	border-left-color: rgba(77,61,61,1);
+}
+#sidebar2 {
+	width: 300px;
+	margin-left: 10px;
+	float: left;
+	color: #7B7676;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	padding: 5px;
+	line-height: 25px;
+
+}
+
+	
+#footer {
+	float: left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: rgba(123,118,118,1);
+	color: rgba(123,118,118,1);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 16px;
+	color: rgba(123,118,118,1);
+	padding: 5px;
+}
