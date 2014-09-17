@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>E/Read mobile</title>
+<style type="text/css">
+#container {
+	position: relative;
+	width: 1150px;
+	margin: 0 auto;
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: rgba(201,178,178,1);
+}
+#banner {
+	float: left;
+	width: 1100px;
+	background-color: rgba(255,255,255,0.97);
+	color: rgba(251,250,250,1);
+	font-weight: bold;
+	padding-left: 50px;
+	font-size: 14px;
+	text-align: left;
+	margin-bottom: 10px;
+	background-image: url(file:///F|/back%20up%20files/html%20pages/thenotion/Images/Book%20covers/bg-reader.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#left {
+	float: left;
+	width: 260px;
+	margin-left: 10px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: center top;
+	text-align: center;
+	background-color: rgba(255,255,255,0.97);
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	font-size: 12px;
+}
+#center {
+	float: left;
+	width: 800px;
+	margin-left: 0px;
+	background-image: url(file:///F|/back%20up%20files/html%20pages/thenotion/Images/Book%20covers/back_black.jpg);
+	background-color: rgba(130,127,44,1);
+	color: rgba(240,229,85,1);
+	font-weight: normal;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	font-size: 36px;
+	background-repeat: repeat;
+	background-position: right top;
+	padding: 10px;
+	border-top: thin solid rgba(245,237,20,1);
+	border-right: thin none rgba(245,237,20,1);
+	border-bottom: thin none rgba(245,237,20,1);
+	border-left: thin none rgba(245,237,20,1);
+	text-align: center;
+}
+#right {
+	padding: 0px;
+	float: left;
+	width: 28px;
+	margin-left: 10px;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: rgba(13,12,12,1);
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-align: center;
+	background-color: rgba(255,255,255,0.97);
+}
+#feature_head {
+	height: auto;
+	width: auto;
+	background-color: rgba(239,28,32,1);
+	color: rgba(255,255,255,1);
+	font-weight: bold;
+	padding-left: 5px;
+	font-size: 24px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+a:link {
+	color: rgba(13,12,12,1);
+}
+a:visited {
+	color: rgba(255,255,255,0.97);
+}
+a:hover {
+	color: rgba(255,255,255,0.97);
+}
+a:active {
+	color: rgba(245,237,20,1);
+}
+a {
+	font-size: 12px;
+}
+#relationships_head {
+	float: right;
+	height: auto;
+	width: auto;
+	background-color: rgba(255,255,255,1);
+	color: rgba(232,51,51,1);
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	padding-right: 2px;
+	padding-left: 2px;
+	font-weight: normal;
+	font-size: 18px;
+	margin-right: 100px;
+	text-align: right;
+}
+#special_top {
+	float: left;
+	height: auto;
+	width: auto;
+	background-color: rgba(255,255,255,0.97);
+}
+#banner2 {
+	float: left;
+	width: 1150px;
+	background-color: rgba(255,255,255,0.97);
+	border-bottom: thin solid rgba(245,237,20,1);
+	border-top-width: thin;
+	border-right-width: thin;
+	border-left-width: thin;
+	border-top-color: rgba(245,237,20,1);
+	border-right-color: rgba(245,237,20,1);
+	border-left-color: rgba(245,237,20,1);
+	color: rgba(13,12,12,1);
+	height: auto;
+}
+#banner_below {
+	float: left;
+	width: 1100px;
+	color: rgba(255,255,255,0.97);
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	background-color: rgba(18,19,18,1);
+	font-size: 14px;
+	text-align: left;
+	padding-left: 5px;
+}
+#link_1 {
+	float: left;
+	height: 20px;
+	width: 70px;
+	color: rgba(13,12,12,1);
+}
+#link2 {
+	float: left;
+	height: 20px;
+	width: 70px;
+	margin-left: 3px;
+	color: rgba(13,12,12,1);
+}
+</style>
+<link href="file:///F|/back up files/html pages/thenotion/jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="file:///F|/back up files/html pages/thenotion/jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script src="file:///F|/back up files/html pages/thenotion/jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script><script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/parisienne:n4:default.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<div id="container">
+  <div id="banner">
+    <p style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; color: rgba(251,250,250,1); font-size: 16px; font-weight: normal; font-style: normal;">n o t i o n | P U B L I S H I N G | Business . Travel . Spiritualism . Humanism . Ecology . Poetry . Literature</p>
+    <div id="banner_below"><a href="file:///F|/back up files/html pages/thenotion/index.html">home</a></div>
+    <p style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; color: rgba(251,250,250,1); font-size: 12px; font-weight: normal;">&nbsp;</p>
+  </div>
+  <div id="left">
+    <div id="feature_head">relationships </div>
+    <p style="font-size: 12px; font-weight: normal;"><span style="font-weight: bold; font-size: 18px;">BOSSTALK</span> </p>
+    <p style="font-size: 12px; font-weight: normal;"><span style="font-weight: normal; font-size: 14px;">An international bestseller with 30,000 copies sold to date! Bosstalk has the tools and skills every manager needs to run a productive and  happy workplace..</span>.</p>
+  <p><a href="http://www.amazon.com/dp/B00JCZSQIW"><img src="file:///F|/back up files/html pages/thenotion/Images/Book covers/Bosstalk_250px.jpg" width="250" height="350" alt=""/></a></p>
+  <p style="font-size: 14px">&nbsp;</p>
+  <hr>
+  <p><span style="font-size: 16px; font-weight: bold;">The Relationships Series</span></p>
+  <p style="font-size: 14px">Have better, happier relationships with colleagues and loved ones. It's simple once you know how!</p>
+  <p><span style="font-size: 14px">Learn to LISTEN, accept and give CRITICISM, and resolve CONFLICT. This series of short books is the <span style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif">fast way</span> to a happier, healthier, and longer life</span>  </p>
+  <p><a href="http://www.amazon.ca/How-Give-Receive-Criticism-Relationships-ebook/dp/B009NGKFS4/ref=sr_1_2?ie=UTF8&qid=1400016774&sr=8-2&keywords=criticism+how+to+give+it"><img src="file:///F|/back up files/html pages/thenotion/Images/Book covers/criticism_w_drop.jpg" width="250" height="336" alt=""/></a></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  </div>
+  <div id="center">
+   Travel and spiritual journeys
+     <p><img src="file:///F|/back up files/html pages/thenotion/Images/thenotion/nirsa montana agudelo.jpg" width="160" height="160" alt=""/></p>
+     <p><img src="file:///F|/back up files/html pages/thenotion/Images/Book covers/book_marquee.jpg" width="500" height="300" alt=""/></p>
+    <p><a href="http://www.amazon.com/dp/B00CHTEZYO"><img src="file:///F|/back up files/html pages/thenotion/Images/Book covers/great-treks-new-cover.jpg" width="324" height="432" alt=""/></a>...  <img src="file:///F|/back up files/html pages/thenotion/Images/Book covers/DHARMA2.jpg" width="312" height="443" alt=""/></p>
+  </div>
+  <div id="right">
+    <div id="special_top"></div>
+  </div>
+</div>
+</body>
+</html>

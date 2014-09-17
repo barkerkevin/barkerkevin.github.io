@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	margin: 0 auto;
+	padding: 5px;
+	float: left;
+	width: 1178px;
+	position: relative;
+}
+#banner {
+	margin: 10px;
+	padding: 5px;
+	float: left;
+	height: auto;
+	width: 980px;
+	position: relative;
+	background-color: #FAFDFC;
+	color: #FFF;
+	background-image: url(file:///F|/back%20up%20files/html%20pages/thenotion/Images/Misc%20pix/greybg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-size: 16px;
+}
+#left,#center,#right {
+	margin:10px;
+	float:left;
+	padding:5px;
+	
+}
+
+#left {
+	margin: 10px;
+	float: left;
+	width: 310px;
+	position: relative;
+	border: thin none #FF0;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 12px;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: left top;
+	color: rgba(255,255,255,1);
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	background-color: rgba(250,253,252,0.02);
+}
+#center {
+	margin: 10px;
+	padding: 5px;
+	float: left;
+	height: auto;
+	width: 600px;
+	position: relative;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 18px;
+	font-style: normal;
+	color: #121312;
+}
