@@ -12,7 +12,7 @@
             <Controls>false</Controls>
             <FullScreen>false</FullScreen>
             <GalleryName>marquee</GalleryName>
-            <GallerySuffix>2</GallerySuffix>
+            <GallerySuffix>1</GallerySuffix>
             <HtmlCharset>UTF-8</HtmlCharset>
             <ImageAspectRatio>true</ImageAspectRatio>
             <ImageEffect>book</ImageEffect>
