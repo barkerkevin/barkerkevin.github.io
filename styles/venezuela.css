@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	position: relative;
+	width: 1178px;
+	margin: 0 auto;
+	height: auto;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-size: medium;
+}
+#left,#center,#right {
+	width:auto;
+	margin:10px;
+	float:left;
+}
+#left {
+	width:250px;
+}
+#right {
+	padding: 5px;
+	background-image: url(../Images/quote.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: large;
+	color: #666;
+	float: left;
+	width: 250px;
+	
+	
+}
+
+#banner {
+	margin: 10;
+	width: 1078px;
+	float: left;
+	background-color: #000;
+	color: #F00;
+	font-family: Papyrus;
+	font-size: xx-large;
+	padding-left: 10px;
+}
+
+	
+#dateline {
+	padding: 5px;
+	float: left;
+	width: 590px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+#center {
+	width: 600px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 14px;
+}
