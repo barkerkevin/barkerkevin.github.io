@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	position: relative;
+	width: 1178px;
+	height: 2200px;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-size: medium;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#below_banner {
+	width: 978px;
+	float: left;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	border-top: thin solid #CC0;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-right-color: #CC0;
+	border-bottom-color: #CC0;
+	border-left-color: #CC0;
+
+}
+
+#left,#center,#right {
+	width: 250px;
+	margin: 10px;
+	float: left;
+	color: #000;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+#right {
+	padding: 5px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color: #000;
+	font-style: italic;
+	font-size: large;
+	background-image: url(../Images/quote.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+
+}
+
+#banner {
+	margin: 10;
+	width: 1078px;
+	float: left;
+	color: #000;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: xx-large;
+	padding-left: 10px;
+}
+
+	
+#dateline {
+	float: left;
+	width: 590px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #000;
+	margin-left: 10px;
+	padding: 2px;
+}
+#center {
+	width: 800px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	margin-left: 10px;
+	background-image: url(../adamcramb_urban%20nature_.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	color: #000;
+	font-size: large;
+}
+#cramb_bodytext {
+	float: left;
+	width: 300px;
+	margin-left: 10px;
+	color: #FFF;
+}

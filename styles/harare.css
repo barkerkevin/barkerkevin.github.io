@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	position: relative;
+	width: 1178px;
+	margin: 0 auto;
+	height: auto;
+	
+}
+#banner {
+	width: 1170;
+	padding: 15px;
+	background-image: url(../Images/blurbg.jpg);
+	background-repeat: no-repeat;
+	color: #000;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 12px;
+	float: left;
+	position: relative;
+	background-position: center top;
+	background-color: #333;
+	text-align: left;
+	height: 91px;
+	margin: 0px;
+}
+#left,#center,#right {
+	width: 300px;
+	padding: 5px;
+	float: left;
+	border-right: medium none #F00;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-bottom-color: #F00;
+	border-left-color: #F00;
+	border-top: medium none #F00;
+	margin: 10px;
+	height: auto;
+}
+
+#center {
+	width: 800px;
+	font-size: 16px;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: right top;
+	color: #000;
+	float: left;
+	position: relative;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color: #FFF;
+	font-weight: normal;
+	text-align: left;
+	border-left: thin solid #CC0;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-top-color: #CC0;
+	border-right-color: #CC0;
+	border-bottom-color: #CC0;
+}
+#right {
+	width: 150px;
+	color: #FFFFFF;
+	background-image: url(../Images/DSCN1179.JPG);
+	background-repeat: no-repeat;
+	background-position: right top;
+	font-size: 18px;
+}
+#left {
+	width: 200px;
+	background-image: url(../Images/invest.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	color: #000;
+	font-weight: normal;
+	font-size: 16px;
+	float: left;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	position: relative;
+	width: 1178px;
+	margin: 0 auto;
+	height: auto;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-color: #BFBFBF;
+}
+#banner {
+	width: 1170;
+	padding: 15px;
+	background-image: none;
+	background-repeat: no-repeat;
+	color: #000;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 24px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	position: relative;
+	background-position: left 135px;
+	background-color: #FFF;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+}
+#left,#center,#right {
+	width: 300px;
+	padding: 5px;
+	float: left;
+	border-right: medium none #F00;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-bottom-color: #F00;
+	border-left-color: #F00;
+	border-top: medium none #F00;
+	margin: 10px;
+	height: auto;
+}
+
+#center {
+	width: 300px;
+	font-size: 12px;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: right top;
+	color: #000;
+	float: left;
+	position: relative;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color: #FFF;
+	font-weight: normal;
+	text-indent: 3px;
+}
+#right {
+	width: 150px;
+	color: #FFFFFF;
+	background-image: url(../Images/DSCN1179.JPG);
+	background-repeat: no-repeat;
+	background-position: right top;
+	font-size: 18px;
+}
+#left {
+	width: 500px;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: left top;
+	color: #000;
+	font-weight: normal;
+	font-size: 14px;
+	text-align: left;
+	border: thin solid #CCC;
+	background-color: #FFF;
+	font-style: normal;
+}
+#ss {
+	margin: 10px;
+	float: left;
+	width: 120px;
+}
+#lss_right {
+	float: left;
+	width: 80px;
+	background-color: #CC0;
+	padding: 2px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	margin-right: 5px;
+}
+#banner_ads {
+	float: left;
+	height: 91px;
+	width: 728px;
+	background-color: #FFF;
+}
+#fine_pic {
+	clear: right;
+	float: left;
+	width: 250px;
+	background-color: #000;
+	color: #F00;
+	text-align: center;
+}

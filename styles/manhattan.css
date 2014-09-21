@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	margin: 0 auto;
+	padding: 5px;
+	float: left;
+	width: 1178px;
+	position: relative;
+}
+#banner {
+	margin: 10px;
+	padding: 5px;
+	float: left;
+	height: auto;
+	width: 980px;
+	position: relative;
+	background-color: #000;
+	color: #FFF;
+	font-weight: normal;
+	font-size: 16px;
+	font-style: normal;
+	text-align: right;
+}
+#left,#center,#right {
+	margin:10px;
+	float:left;
+	padding:5px;
+	
+}
+
+#left {
+	margin: 10px;
+	float: left;
+	width: 310px;
+	position: relative;
+	border: thin solid #FF0;
+	font-weight: 400;
+	font-size: 12px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: -230px -180px;
+	color: #000;
+	font-style: normal;
+	text-align: right;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+#center {
+	margin: 10px;
+	padding: 5px;
+	float: left;
+	height: auto;
+	width: 700px;
+	position: relative;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: 16px;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center -160px;
+}
