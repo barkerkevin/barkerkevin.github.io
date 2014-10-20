@@ -1,10 +1,11 @@
 @charset "utf-8";
 body    {
-    margin: 0px;
-    color: #151515;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    background-color: #FFFFFF8;
-	font-size:16px;
+	margin: 0px;
+	color: #151515;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #FFFFFF8;
+	font-size: 16px;
+	width: 90%;
 	
 }
 #wrapper {
@@ -21,16 +22,16 @@ body    {
     clear: left;
 }
 #hero article {
-    width: 30%;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: absolute;
-    top: 40px;
-    right: 43px;   
-    border-radius: 15px;
-	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size:20px;
-	background-color:#F7EF21;
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	top: 40px;
+	right: 43px;
+	border-radius: 15px;
+	font-size: 30px;
+	background-color: #F7EF21;
+	
 	
 	
 
@@ -49,25 +50,36 @@ body    {
     max-width: 100%;
 }
 h1, h2 {
-    color: #3399CC;
-    font-style: normal;
-    font-weight: 600;
-    font-family: source-sans-pro;
+	color: #000000;
+	font-style: normal;
+	font-weight: 600;
+	font-family: source-sans-pro;
+	line-height: 30px;
 }
 h1 {
-    font-size: 72px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 0px;
-    margin-bottom: 0px;
-	color:#F7EF21;
+	font-size: 62px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #000000;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	line-height: 70px;
+	text-align: left;
+	text-indent: 1px;
+	text-shadow: 0px 10px #F7EF21;
 	
 }
 #main {
-    width: 58%;
-    margin-left: 2%;
-    float: left;
-	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	
+	font:width: 58%;
+	margin-left: 20%;
+	float: left;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #000000;
+	font-size: 18px;
+	width: 900px;
+	line-height: 33px;
+
 	
 }
 #sidebar {
